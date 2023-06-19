@@ -1,0 +1,47 @@
+:root{
+   --Grayish-blue: hsl(220, 15%, 55%);
+   --Light-gray: hsl(212, 45%, 89%);
+   --Dark-blue: hsl(218, 44%, 22%);
+   --White: hsl(0, 0%, 100%);
+   --f-weight:400;
+   --bolder:700;
+   --p-fs:15px;/* font size for the paragraph*/
+   --font: 'montserrat';
+}
+body{
+    background: var(--Light-gray);
+    margin: 0;
+}
+.container{
+    border-radius: 10px;
+    background-color: var(--White);
+    text-align: center;
+    width: 300px;
+    font-family: var(--font);
+    padding: 10px;
+    position: relative;
+    left: 40%;
+    margin-top: 8rem;
+}
+.qr-code img{
+    width: 100%;
+    border-radius: 10px;
+}
+.title{
+    color: var(--Dark-blue);
+    font-weight: var(--bolder);
+    font-size: var(--p-fs);
+}
+.note{
+    text-align: center;
+    font-size: var(--p-fs);
+    color: var(--Light-gray);
+    font-weight: var(--f-weight);
+}
+
+@media (max-width:375px){
+    .container{
+        left: 7%;
+        margin-top: 7rem;
+    }
+}
