@@ -10,14 +10,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
 The qr-code-component challenge is a basic challenge testing on matters of CSS positioning property.
-The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.
+The card layout doesn't shift, even in the .
 
 ### Screenshot
 ![QR_Code](https://github.com/AaronNevalinz/QR_Code/assets/76948733/010d95c4-0a50-4bae-9464-25b847cd646e)
@@ -32,11 +31,17 @@ The card layout doesn't shift, so it's ideal if you haven't learned about buildi
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- CSS positioning
+ 
+### What I Learned
 
+The positioning property: relative; takes the position of the parent container. So for this, it's the body of the html document.
+
+### Useful Resources
+
+[Angela Delise on Youtube](https://www.youtube.com/@angeladesign737)
+
+### Author
+
+💻[Aaron Nevalinz™️](https://twitter.com/AaronNevalinz)
   
