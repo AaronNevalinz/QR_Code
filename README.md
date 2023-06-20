@@ -25,7 +25,7 @@ The card layout doesn't shift, even in the .
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://aaronnevalinz.github.io/QR_Code/)
+- [Live Site URL](https://aaronnevalinz.github.io/QR_Code/)
 
 ### Built with
 
