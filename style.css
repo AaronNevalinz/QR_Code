@@ -11,6 +11,9 @@
 body{
     background: var(--Light-gray);
     margin: 0;
+    display:grid;
+    place-items:center;
+    height:100vh;
 }
 .container{
     border-radius: 10px;
@@ -19,9 +22,9 @@ body{
     width: 300px;
     font-family: var(--font);
     padding: 10px;
-    position: relative;
+/*     position: relative;
     left: 40%;
-    margin-top: 8rem;
+    margin-top: 8rem; */
 }
 .qr-code img{
     width: 100%;
